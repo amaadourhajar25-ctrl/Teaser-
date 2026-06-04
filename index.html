@@ -2,8 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, 
-  maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Un vent de changement arrive</title>
   <style>
     * {
@@ -24,11 +23,9 @@
 
     .wrapper {
       position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 100%;
+      display: inline-block;
+      max-width: 100vw;
+      max-height: 100vh;
     }
 
     .wrapper img {
@@ -36,17 +33,16 @@
       max-height: 100vh;
       width: auto;
       height: auto;
-      object-fit: contain;
       display: block;
+      object-fit: contain;
     }
 
     .click-zone {
       position: absolute;
-      bottom: 8%;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 60%;
-      height: 12%;
+      left: 5%;
+      bottom: 20%;
+      width: 90%;
+      height: 15%;
       display: block;
       text-decoration: none;
       background: transparent;
