@@ -7,21 +7,26 @@
   <style>
     body {
       margin: 0;
-      background: #000;
+      background: black;
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
+      height: 100vh;
+      overflow: hidden;
     }
 
     .container {
       position: relative;
-      width: 100%;
-      max-width: 900px;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .container img {
-      width: 100%;
+      max-height: 100vh;
+      max-width: 100vw;
+      width: auto;
       height: auto;
       display: block;
     }
@@ -29,7 +34,7 @@
     .click-zone {
       position: absolute;
       left: 50%;
-      top: 73%;
+      top: 72%;
       transform: translateX(-50%);
       width: 42%;
       height: 11%;
